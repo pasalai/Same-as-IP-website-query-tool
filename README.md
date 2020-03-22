@@ -17,5 +17,5 @@ python3 ./tool.py
 ![Running image](https://github.com/lsc183754539/Same-as-IP-website-query-tool/blob/master/running.jpg)
 
 ## Others
-* The result is automatically saved to "URLresult.xls"
+* The result is automatically saved to the directory you specified. Before that, create the XLS file.
 * If there is any error, please submit issue
