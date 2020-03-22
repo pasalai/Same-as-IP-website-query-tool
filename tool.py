@@ -7,7 +7,6 @@
 # @Software: PyCharm
 
 import requests
-import numpy
 import sys
 import easygui as ui
 import pandas as pd
