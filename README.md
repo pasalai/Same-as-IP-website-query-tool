@@ -14,8 +14,15 @@ cd sameiptool
 python3 ./tool.py
 ```
 ## Running image
-![Running image](https://github.com/lsc183754539/Same-as-IP-website-query-tool/blob/master/running.jpg)
 
+![info](https://imgkr.cn-bj.ufileos.com/288f86f1-8d39-4924-8085-4ace9a84c4aa.png)
+  
+![print data](https://imgkr.cn-bj.ufileos.com/7a286c6b-b742-419f-a654-11e108fa9097.png)
+  
+![save data to xls file](https://imgkr.cn-bj.ufileos.com/720dabc2-003e-4ae1-a538-dd1d658a477f.png)
+  
+![xls file](https://imgkr.cn-bj.ufileos.com/7ade24cf-1a37-4c6e-8641-84c70bba189e.png)
+  
 ## Others
-* The result is automatically saved to the directory you specified. Before that, create the XLS file.
-* If there is any error, please submit issue
+* The result is automatically saved to the directory you specified. 
+* If there is any error, please submit issue.

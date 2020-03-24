@@ -82,7 +82,7 @@ class do_somting():
         with open("data.txt", encoding="gbk") as rp:
             text = rp.read()
         ui.textbox(msg="网站" + website + "同IP网站的详细信息", title="网站" + website + "同IP网站的详细信息", text=text)
-        weizhi = ui.fileopenbox(msg="表格保存", title="表格保存", default="./" + website + "结果.xls", filetypes="xls")
+        weizhi = ui.filesavebox(msg="表格保存", title="表格保存", default="./" + website + "结果.xls", filetypes="xls")
         print("[!]正在保存结果至" + website + "结果.xls")
         data_pd = pd.DataFrame(data=all_info, columns=["url", "状态值", "网站标题", "可能的CMS", "网站环境(包括中间件、开发框架、语言等信息)"])
         try:
